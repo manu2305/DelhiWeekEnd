@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="classes">
+	  <groups>
+		  <run>
+			  <exclude name="smoke"></exclude>
+		  </run>
+	  </groups>	  
+    <classes>
+      <class name="TestNgBPG2.Campus"/>
+      <class name="TestNgBPG2.Woodland"/>
+       <class name="TestNgBPG2.Bata"/>
+      <class name="TestNgBPG1.Ducati"/>
+      <class name="TestNgBPG2.Puma"/>
+      <class name="TestNgBPG1.Ktm"/>
+      <class name="TestNgBPG1.RoyalEnfield"/>
+      <class name="TestNgBPG1.Honda"/>
+      <class name="TestNgBPG1.Bmw"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
